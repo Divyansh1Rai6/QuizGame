@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #51519b;
+    font-family: poppins, sans-serif;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: 60px 460px;
+}
+h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+hr {
+    background-color: black;
+    height: 2px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+#question-container {
+    font-size: larger;
+}
+#answer-container {
+     padding: 12px 12px;
+}
+#next-btn {
+    text-align: center;
+    width: 100px;
+    margin: 10px 200px;
+    background-color: rgb(94, 94, 209);
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;
+}
+button {
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: white;
+    transition: background 0.3s, color 0.3s;
+}
+button:not(:disabled):hover {
+    background-color: black;
+    color: white;
+}
+button:disabled {
+    cursor: not-allowed;
+}
+.correct {
+    background-color: rgb(8, 156, 8);
+    color: white;
+}
+.wrong {
+    background-color: rgb(160, 7, 7);
+    color: white;
+}
+p {
+    margin-left: 10px;
+}
