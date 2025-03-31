@@ -12,6 +12,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: white;
+    padding: 50px 50px;
     align-items: center;
     justify-content: center;
 }
