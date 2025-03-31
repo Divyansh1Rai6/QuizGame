@@ -5,16 +5,17 @@
 body {
     background-color: #51519b;
     font-family: poppins, sans-serif;
-}
-.container {
-    width: 500px;
-    height: 500px;
-    border: none;
-    border-radius: 5px;
-    background-color: white;
-    padding: 50px 50px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+}
+.container {
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
 }
 h2 {
     padding-top: 30px;
