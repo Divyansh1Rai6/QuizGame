@@ -5,6 +5,9 @@
 body {
     background-color: #51519b;
     font-family: poppins, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 .container {
     width: 500px;
