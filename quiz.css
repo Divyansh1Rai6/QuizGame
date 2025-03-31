@@ -38,6 +38,8 @@ hr {
 }
 #next-btn {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     margin: 10px 100px;
     background-color: rgb(94, 94, 209);
