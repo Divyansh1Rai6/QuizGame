@@ -17,6 +17,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 400px;
+    padding: auto;
     margin: auto;
 }
 h2 {
