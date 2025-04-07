@@ -49,7 +49,6 @@ const questions = [
         answer : ["Rate of change of velocity", "Difference between final velocity and initial velocity with respect to time taken", "Both a and b", "None of these"],
         correct : "Difference between final velocity and initial velocity with respect to time taken"
     },
-    }
 ];
 let currentQuestionIndex = 0;
 let score = 0;
