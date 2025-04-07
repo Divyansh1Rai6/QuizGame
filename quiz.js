@@ -35,17 +35,17 @@ const questions = [
         correct : "2000 m/s^2"
     },
     {
-        question :8. "Slope of displacement v/s time graph is:",
+        question : "8. Slope of displacement v/s time graph is:",
         answer : ["Distance", "Displacement", "Acceleration", "Time"],
         correct : "Velocity"
     },
     {
-        question : "The shortest path travelled by any object is:",
+        question : "9. The shortest path travelled by any object is:",
         answer : ["Distance", "Displacement", "Velocity", "Acceleration"],
         correct : "Displacement"
     },
     {
-        question : "Acceleration is :",
+        question : "10. Acceleration is :",
         answer : ["Rate of change of velocity", "Difference between final velocity and initial velocity with respect to time taken", "Both a and b", "None of these"],
         correct : "Difference between final velocity and initial velocity with respect to time taken"
     },
