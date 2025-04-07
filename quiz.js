@@ -1,13 +1,13 @@
 const questions = [
     {
-      question: "1. Which is the smallest country in the world?",
-      answer: ["Vatican City", "Bhutan", "Nepal", "Shri Lanka"],
-      correct: "Vatican City"
+      question: "1. To convert km/h into m/s we multiply by ",
+      answer: ["5/18", "18/5", "3/7", "7/3"],
+      correct: "5/18"
     },
     {
-      question: "2. Which is the largest desert in the world?",
-      answer: ["Kalahari", "Gobi", "Sahara", "Antartica"],
-      correct: "Sahara"
+      question: "2. A body when projected up goes to height 'h' in time 't' and then returns back at the point of projection. The incoreect statement is:",
+      answer: ["The displacement is zero", "The average velocity is 2h/t", "The final speed is same as the initial speed", "Acceleration is constant"],
+      correct: "The average velocity is 2h/t"
     },
     {
       question : "3. Which is the smallest continent in the world?",
