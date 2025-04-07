@@ -10,14 +10,45 @@ const questions = [
       correct: "The average velocity is 2h/t"
     },
     {
-      question : "3. Which is the smallest continent in the world?",
-      answer : ["Asia" ,"Australia", "Arctic", "Africa"],
-      correct : "Australia"
+      question : "3. Unit of retardation is:",
+      answer : ["m/s", "m/s^2", "m", "ms^2"],
+      correct : "m/s^2"
     },
     {
-      question : "4. Which is the largest state in the India?",
-      answer : ["Goa", "Rajasthan", "Uttar Pradesh", "Bihar"],
-      correct : "Rajasthan"
+      question : "4. The velocity of a body starting from rest is directly proportional to time. Which is uniform?",
+        answer : ["velocity only", "Acceleration only", "Both velocity and acceleration", "neither velocity nor acceleration"],
+      correct : "Acceration only"
+    },
+    {
+        question : "5. For uniformly accelerated motion, the velocity-time graph is:",
+        answer : ["A straight line parallel to the time axis", "A straight line perpendicular to the time axis", "A straight line inclined to the time axis", "A curve"],
+        correct : "A straight line inclined to the time axis"
+    },
+    {
+        question : "6. A body is dropped from top of tower. The quantity which remains constant is:",
+        answer : ["Displacement", "Speed", "Velocity", "Acceleration"],
+        correct : "Acceleration"
+    },
+    {
+        question : "7. A bullet initially moving with a velocity 20 m/s strikes a target and comes to rest after penetrating a distance 10 cm in the target. The retardation caused by the target is:",
+        answer : ["2000 m/s^2", "2550 m/s^2", "3000 m/s^2", "4500 m/s^2"],
+        correct : "2000 m/s^2"
+    },
+    {
+        question :8. "Slope of displacement v/s time graph is:",
+        answer : ["Distance", "Displacement", "Acceleration", "Time"],
+        correct : "Velocity"
+    },
+    {
+        question : "The shortest path travelled by any object is:",
+        answer : ["Distance", "Displacement", "Velocity", "Acceleration"],
+        correct : "Displacement"
+    },
+    {
+        question : "Acceleration is :",
+        answer : ["Rate of change of velocity", "Difference between final velocity and initial velocity with respect to time taken", "Both a and b", "None of these"],
+        correct : "Difference between final velocity and initial velocity with respect to time taken"
+    },
     }
 ];
 let currentQuestionIndex = 0;
