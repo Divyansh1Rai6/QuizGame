@@ -17,7 +17,7 @@ const questions = [
     {
       question : "4. The velocity of a body starting from rest is directly proportional to time. Which is uniform?",
         answer : ["velocity only", "Acceleration only", "Both velocity and acceleration", "neither velocity nor acceleration"],
-      correct : "Acceration only"
+      correct : "Acceleration only"
     },
     {
         question : "5. For uniformly accelerated motion, the velocity-time graph is:",
@@ -36,7 +36,7 @@ const questions = [
     },
     {
         question : "8. Slope of displacement v/s time graph is:",
-        answer : ["Distance", "Displacement", "Acceleration", "Time"],
+        answer : ["Distance", "Displacement", "Acceleration", "Velocity"],
         correct : "Velocity"
     },
     {
