@@ -106,3 +106,20 @@ nextButton.addEventListener("click", () => {
   }
 });
 startQuiz();
+let totalTime = 60;
+let globaltimeInterval;
+function startGlobalTimer() {
+    globalTimeInterval = setInterval (() => {
+        totalTime--;
+        document.getElementById("global-timer").textContent = totalTime;
+        if (totalTime <= 0) {
+            clearInterval(globalTimeInterval);
+            alert("Time's up for quiz!");
+            showResult();
+        }
+    }, 1000);
+}
+window.onload = () => {
+    showQuestion(currentQuestionIndex);
+    startGlobalTimer();
+};
