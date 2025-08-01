@@ -107,7 +107,7 @@ nextButton.addEventListener("click", () => {
 });
 startQuiz();
 let totalTime = 60;
-let globaltimeInterval;
+let globalTimeInterval;
 function startGlobalTimer() {
     globalTimeInterval = setInterval (() => {
         totalTime--;
