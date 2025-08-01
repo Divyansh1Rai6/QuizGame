@@ -86,4 +86,5 @@ p {
     top: 5px;
     font-weight: bold;
     color: darkred;
+    display: block;
 }
