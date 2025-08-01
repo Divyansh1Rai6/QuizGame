@@ -78,10 +78,12 @@ p {
     margin-left: 10px;
 }
 #timer {
-    right : 0;
+    right : 5px;
     position: absolute;
     padding: 7px 18px;
     border: 2px solid black;
     border-radius: 5px;
     top: 5px;
+    font-weight: bold;
+    color: darkred;
 }
