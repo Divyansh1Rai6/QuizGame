@@ -114,6 +114,7 @@ function startGlobalTimer() {
         document.getElementById("global-time").textContent = totalTime;
          if (totalTime <= 10) {
         document.getElementById("global-time").style.color = "red";
+             document.getElementById("timer").style.color = "red";
             }
         if (totalTime <= 0) {
             clearInterval(globalTimeInterval);
