@@ -112,15 +112,15 @@ function startGlobalTimer() {
     globalTimeInterval = setInterval (() => {
         totalTime--;
         document.getElementById("global-time").textContent = totalTime;
+         if (totalTime <= 10) {
+        document.getElementById("global-time").style.color = "red";
+            }
         if (totalTime <= 0) {
             clearInterval(globalTimeInterval);
             alert("Time's up for quiz!");
             showResult();
         }
     }, 1000);
-    if (totalTime <= 10) {
-        document.getElementById("global-time").style.color = "red";
-            }
 }
 window.onload = () => {
     showQuestion(currentQuestionIndex);
