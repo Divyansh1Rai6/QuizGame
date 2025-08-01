@@ -123,3 +123,7 @@ window.onload = () => {
     showQuestion(currentQuestionIndex);
     startGlobalTimer();
 };
+function showResult() {
+    clearInterval(globalTimerInterval);
+    document.querySelector(".quiz-container").innerHTML = `<h2>Quiz Completed!</h2>;`;
+}
