@@ -77,3 +77,10 @@ button:disabled {
 p {
     margin-left: 10px;
 }
+#timer {
+    right : 0;
+    position: absolute;
+    padding: 7px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
