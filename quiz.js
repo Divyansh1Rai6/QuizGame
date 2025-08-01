@@ -120,6 +120,7 @@ function startGlobalTimer() {
     }, 1000);
     if (totalTime <= 10) {
         document.getElementById("global-time").style.color = "red";
+            }
 }
 window.onload = () => {
     showQuestion(currentQuestionIndex);
