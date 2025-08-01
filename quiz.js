@@ -111,7 +111,7 @@ let globalTimeInterval;
 function startGlobalTimer() {
     globalTimeInterval = setInterval (() => {
         totalTime--;
-        document.getElementById("global-timer").textContent = totalTime;
+        document.getElementById("timer").textContent = totalTime;
         if (totalTime <= 0) {
             clearInterval(globalTimeInterval);
             alert("Time's up for quiz!");
